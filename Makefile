@@ -15,3 +15,4 @@ lint:
 
 fix:
 	npx eslint --fix .
+
