@@ -25,7 +25,7 @@ function playBrainPrime() {
 
   for (let round = 1; round < 4; round++) {
     const randomNumber = randomJustNumber()
-    const correctAnswer = isPrime() ? 'yes' : 'no'
+    const correctAnswer = isPrime(randomNumber) === true ? 'yes' : 'no'
 
     console.log(`Question: ${randomNumber}`)
     const userAnswer = readlineSync.question(`Your answer: `).trim().toLowerCase()
