@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import readlineSync, { question } from 'readline-sync'
+import readlineSync from 'readline-sync'
 import { greet } from '../src/cli.js'
 
 function progressionQuestion() {
